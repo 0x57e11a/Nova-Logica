@@ -1,0 +1,39 @@
+{
+  "partList": [
+    {
+      "uuid": "cc54fa3b-afed-4a9d-9bec-f9ce088eb3d3",
+      "name": "novalogica_numbercalculator",
+      "renderable": {
+        "lodList": [
+          {
+            "mesh": "$CONTENT_DATA/Objects/Mesh/cube.obj",
+            "subMeshList": [
+              {
+                "material": "UVAnimDifAsg",
+                "textureList": [
+                  "$CONTENT_DATA/Objects/Textures/numbermath_dif.png",
+                  "$CONTENT_DATA/Objects/Textures/asg.png"
+                ],
+                "custom": {
+                  "uv0": {
+                    "u": 0.125,
+                    "v": 0.125
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      },
+      "rotationSet": "PropFull",
+      "color": "df7f00",
+      "box": { "x": 1, "y": 1, "z": 1 },
+      "physicsMaterial": "Metal",
+      "sticky": "+X-X+Y-Y+Z-Z",
+      "scripted": {
+        "filename": "$CONTENT_DATA/Scripts/numbermath.lua",
+        "classname": "NumberMath"
+      }
+    }
+  ]
+}
